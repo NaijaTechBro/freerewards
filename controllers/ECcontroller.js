@@ -82,7 +82,7 @@ module.exports = {
                 _id: res.locals.user._id
             })
             console.log(mission)
-          
+        //   hhh
            updateCoinsInTheParentUser(user.refferedBy, user._id, mission.coins)
             updateCurrentUserCoins(user, mission.coins)
             user.completedMissions.map(function (x) {
